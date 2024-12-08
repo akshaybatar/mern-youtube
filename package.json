@@ -2,9 +2,10 @@
   "name": "mern-youtube",
   "version": "1.0.0",
   "description": "this is sasti you-tube copy",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/akshaybatar/mern-youtube/issues"
   },
-  "homepage": "https://github.com/akshaybatar/mern-youtube#readme"
+  "homepage": "https://github.com/akshaybatar/mern-youtube#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
