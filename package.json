@@ -1,0 +1,23 @@
+{
+  "name": "mern-youtube",
+  "version": "1.0.0",
+  "description": "this is sasti you-tube copy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaybatar/mern-youtube.git"
+  },
+  "keywords": [
+    "mern",
+    "youtube"
+  ],
+  "author": "akshay-batar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaybatar/mern-youtube/issues"
+  },
+  "homepage": "https://github.com/akshaybatar/mern-youtube#readme"
+}
