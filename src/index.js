@@ -9,19 +9,12 @@ connectDB()
     .then(() => {
         app.on("error", (err) => { console.log(err); throw err });
         app.listen(process.env.PORT || 8000, () => {
-            console.log('server is running');
+            console.log(`server is running ${process.env.PORT}`);
         });
     })
     .catch((err) => {
         console.log('Error', err);
     });
-
-
-
-
-
-
-
 
 
 

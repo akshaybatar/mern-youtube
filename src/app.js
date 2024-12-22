@@ -12,7 +12,12 @@ app.use(cors({
 app.use(express.json({ limit: 10000 }));
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
-app.use(express.cookieParser());
+// app.use(express.cookieParser()); 
 
+// Routes
 
-export { app };
+import userRouter from './routes/user.routes.js';
+
+app.use('/api/users', userRouter);
+
+export { app }; 

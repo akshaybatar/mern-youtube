@@ -35,4 +35,4 @@ userSchema.methods.generateRefreshToken = async function () {
     return jwt.sign({ id: this._id }, process.env.REFRESH_TOKEN_SECRET, { expiresIn: process.env.REFRESH_TOKEN_EXPIRY }); // 30 days token expiration time 1 day = 24 hours * 60 minutes * 60 seconds = 86400 seconds
 }
 
-export const User = mongoose.model('User', userSchema);
+export const User = mongoose.model('User', userSchema);1
